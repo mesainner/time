@@ -1,0 +1,12 @@
+var N = null;var sourcesIndex = {};
+sourcesIndex["proc_macro2"] = {"name":"","files":["fallback.rs","lib.rs","strnom.rs","wrapper.rs"]};
+sourcesIndex["proc_macro_hack"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["quote"] = {"name":"","files":["ext.rs","format.rs","ident_fragment.rs","lib.rs","runtime.rs","spanned.rs","to_tokens.rs"]};
+sourcesIndex["serde"] = {"name":"","dirs":[{"name":"de","files":["from_primitive.rs","ignored_any.rs","impls.rs","mod.rs","utf8.rs","value.rs"]},{"name":"private","files":["de.rs","macros.rs","mod.rs","ser.rs"]},{"name":"ser","files":["impls.rs","impossible.rs","mod.rs"]}],"files":["export.rs","integer128.rs","lib.rs","macros.rs","std_error.rs"]};
+sourcesIndex["serde_derive"] = {"name":"","dirs":[{"name":"internals","files":["ast.rs","attr.rs","case.rs","check.rs","ctxt.rs","mod.rs","symbol.rs"]}],"files":["bound.rs","de.rs","dummy.rs","fragment.rs","lib.rs","pretend.rs","ser.rs","try.rs"]};
+sourcesIndex["syn"] = {"name":"","dirs":[{"name":"gen","files":["gen_helper.rs","visit.rs"]}],"files":["attr.rs","bigint.rs","buffer.rs","custom_keyword.rs","custom_punctuation.rs","data.rs","derive.rs","discouraged.rs","error.rs","export.rs","expr.rs","ext.rs","generics.rs","group.rs","ident.rs","lib.rs","lifetime.rs","lit.rs","lookahead.rs","mac.rs","macros.rs","op.rs","parse.rs","parse_macro_input.rs","parse_quote.rs","path.rs","print.rs","punctuated.rs","sealed.rs","span.rs","spanned.rs","thread.rs","token.rs","ty.rs"]};
+sourcesIndex["time"] = {"name":"","dirs":[{"name":"format","files":["date.rs","mod.rs","offset.rs","parse.rs","parse_items.rs","time.rs"]},{"name":"serde","files":["date.rs","duration.rs","mod.rs","primitive_date_time.rs","sign.rs","time.rs","utc_offset.rs","weekday.rs"]}],"files":["date.rs","duration.rs","error.rs","instant.rs","internals.rs","lib.rs","numerical_traits.rs","offset_date_time.rs","primitive_date_time.rs","sign.rs","time_mod.rs","utc_offset.rs","weekday.rs"]};
+sourcesIndex["time_macros"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["time_macros_impl"] = {"name":"","files":["ext.rs","lib.rs","offset.rs","time.rs"]};
+sourcesIndex["unicode_xid"] = {"name":"","files":["lib.rs","tables.rs"]};
+createSourceSidebar();
